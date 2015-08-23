@@ -1,0 +1,8 @@
+1.	 char *nthCharPtr = &oddOrEven[5]; 
+2.	 nthCharPtr -= 2; or nthCharPtr = oddOrEven + 3; 
+3.	 cout << *nthCharPtr; 
+4.	 char **pointerPtr = &nthCharPtr; 
+5.	 cout << pointerPtr; 
+6.	 cout << **pointerPtr; 
+7.	 nthCharPtr++; to point to the next character.
+8.	 cout << nthCharPtr - oddOrEven;
